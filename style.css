@@ -1,0 +1,58 @@
+
+body{
+    width: auto;
+    
+    
+}
+.container{
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    width: auto;
+
+}
+.inner-container{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+.front, .back{
+    height: auto;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.id-img{
+    height:100px;
+    width: 100px;
+    border: 1px solid red;
+    display: block;
+    margin: 0 auto;
+
+}
+.id-name{
+    text-align: center;
+
+}
+.id-details{
+    padding-top: 5px;
+    height: auto;
+    line-height: 7px;
+}
+
+.back{
+    text-align: center;
+
+}
+.barcode{
+    width:100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
